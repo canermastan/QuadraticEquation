@@ -1,1 +1,1 @@
-# quadraticequation
+# Solve Quadratic Equations
