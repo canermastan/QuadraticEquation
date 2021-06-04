@@ -6,11 +6,11 @@ class Main{
     Scanner scanner = new Scanner(System.in);
     double a,b,c;
     System.out.println("Insert value for a: ");
-    a = scanner.nextFloat();
+    a = scanner.nextDouble();
     System.out.println("Insert value for b: ");
-    b = scanner.nextFloat();
+    b = scanner.nextDouble();
     System.out.println("Insert value for c: ");
-    c = scanner.nextFloat();
+    c = scanner.nextDouble();
     double discriminant = Math.pow(b,2) - 4*a*c;
     if (discriminant > 0){
       double root1 = (-b + Math.sqrt(discriminant)) / 2*a;
