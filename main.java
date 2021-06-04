@@ -22,5 +22,6 @@ class Main{
     }else{
       System.out.println("The equation has no real roots.");
     }
+    scanner.close();
   }
 }
